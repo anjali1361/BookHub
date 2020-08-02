@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/imgProfilePic"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile_pic_android" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProfilePic"
+        android:padding="10dp"
+        android:text="@string/sanju"
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/abcop7809_gmail_com"
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/_11_11111111"
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPhone"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/manhattan_ny"
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgwhatsapp"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/txtAddress"
+        android:layout_marginStart="6dp"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/whatsapp" />
+    <ImageView
+        android:id="@+id/imgfb"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:src="@drawable/fb"
+        android:padding="2dp"
+        android:layout_below="@+id/imgwhatsapp"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imginsta"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/imgfb"
+        android:layout_centerHorizontal="true"
+        android:padding="8dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/insta" />
+
+
+
+</RelativeLayout>
