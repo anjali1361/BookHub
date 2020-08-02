@@ -1,2 +1,2 @@
 # BookHub
-basic book app involoving some basic skills of android
+Basic book app involving some basic skills of android
