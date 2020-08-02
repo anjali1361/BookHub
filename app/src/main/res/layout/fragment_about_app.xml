@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutAppFragment"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginTop="20dp"
+        android:padding="4dp"
+        android:text="@string/about_this_app"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtInfomation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtAboutApp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:textSize="26sp"
+        android:text="@string/this_app_consists_of_some_list_of_books_and_the_description_regarding_those_one_can_go_to_the_app_and_can_fetch_the_description_of_the_book_which_you_liked_the_most_and_can_also_add_it_to_the_favourites_collections_and_remove_whenever_wanted_the_list_can_be_sorted_too_in_decreasing_order_of_ratings_device_should_have_internet_connection"/>
+
+
+
+    <ImageView
+        android:id="@+id/imggithub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtInfomation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="62dp"
+        android:padding="4dp"
+        android:src="@drawable/github" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BookHub</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="favourites">Favourites</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About App</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard_fragment">Dashboard Fragment</string>
+    <string name="favourites_fragment">Favourites Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+    <string name="about_app_fragment">About App Fragment</string>
+    <string name="add_to_favourites">Add to Favourites</string>
+    <string name="action_sort">Sort</string>
+    <string name="name_of_the_book">Name of the book</string>
+    <string name="name_of_the_author">Name of the Author</string>
+    <string name="rs_299">Rs. 299</string>
+    <string name="_4_5">4.5</string>
+    <string name="about_this_app">ABOUT THIS APP</string>
+    <string name="this_app_consists_of_some_list_of_books_and_the_description_regarding_those_one_can_go_to_the_app_and_can_fetch_the_description_of_the_book_which_you_liked_the_most_and_can_also_add_it_to_the_favourites_collections_and_remove_whenever_wanted_the_list_can_be_sorted_too_in_decreasing_order_of_ratings_device_should_have_internet_connection">This app consists of some list of books and the description regarding those.One can go to the app and can fetch the description of the book which you liked the most and can also add it to the favourites collections and remove whenever wanted.The list can be sorted too in decreasing order of ratings.Device should have internet connection.</string>
+    <string name="manhattan_ny">Manhattan, NY</string>
+    <string name="_11_11111111">+11 - 11111111</string>
+    <string name="abcop7809_gmail_com">abcop7809@gmail.com</string>
+    <string name="sanju">Sanju</string>
+    <string name="share">share</string>
+
+</resources>
