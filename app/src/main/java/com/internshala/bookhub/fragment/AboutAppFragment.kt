@@ -39,14 +39,14 @@ class AboutAppFragment : Fragment() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater?.inflate(R.menu.share, menu)
+        inflater.inflate(R.menu.share, menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
      try {
 
-        val id = item?.itemId
+        val id = item.itemId
         if (id == R.id.share){
             val intent= Intent(Intent.ACTION_SEND)
            intent.type="text/plain"
@@ -60,7 +60,7 @@ class AboutAppFragment : Fragment() {
          Toast.makeText(activity as Context,"some error occured",Toast.LENGTH_SHORT).show()
      }
 
-        return super.onOptionsItemSelected(item!!)
+        return super.onOptionsItemSelected(item)
     }
 
 
