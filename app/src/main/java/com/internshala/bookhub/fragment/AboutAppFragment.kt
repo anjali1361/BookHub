@@ -31,11 +31,18 @@ class AboutAppFragment : Fragment() {
         this.setHasOptionsMenu(true)
 
         imggithub.setOnClickListener{
-
-
-
+            
+               viewCode()
         }
         return view
+    }
+    
+     private fun viewCode() {
+        val uri =  "https://github.com/anjali1361/BookHub.git"
+
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.setData(Uri.parse(uri))
+        startActivity(intent)
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
